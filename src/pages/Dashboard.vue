@@ -37,7 +37,7 @@ export default {
             this.tasks.push(task); // Add the new user to the users array
         },
         viewRules() {
-            console.log('route succes')
+            console.log('route success')
             this.$router.push('/rules')
         }
     },
